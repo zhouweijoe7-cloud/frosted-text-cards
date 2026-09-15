@@ -1,0 +1,5 @@
+interface:
+  display_name: "磨砂文字卡片"
+  short_description: "提炼长文本并生成可选配色与版式的半透明磨砂 PNG 文字卡片"
+  brand_color: "#617483"
+  default_prompt: "使用 $frosted-text-cards 分析这段文本，先提供卡片文案、配色和版式选择。"

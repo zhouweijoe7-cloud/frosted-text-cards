@@ -1,0 +1,103 @@
+{
+  "series": {
+    "source_summary": "用 AI 识别音乐调性，并通过同调音乐提升 BGM 衔接质量与选曲效率。",
+    "audience": "视频创作者与剪辑师",
+    "tone": "专业、克制、清晰",
+    "palette": "P12",
+    "canvas": [1080, 1350],
+    "format": "png_rgba"
+  },
+  "cards": [
+    {
+      "id": "01",
+      "slug": "find-music",
+      "role": "hook",
+      "eyebrow": "01 / 选曲难题",
+      "headline": "找歌难",
+      "support": "刷到喜欢的音乐，却难确认歌名和版权",
+      "keywords": ["歌名", "版权"],
+      "english_anchor": "FIND MUSIC",
+      "metadata": "SEARCH / 01",
+      "layout": "L03",
+      "palette": "P12"
+    },
+    {
+      "id": "02",
+      "slug": "ai-recognition",
+      "role": "feature",
+      "eyebrow": "02 / 工具功能",
+      "headline": "AI 识曲",
+      "support": "识别歌名、相似音乐与整首歌的调性",
+      "keywords": ["识曲", "相似音乐", "调性"],
+      "english_anchor": "AI MUSIC",
+      "metadata": "SCAN / KEY",
+      "layout": "L07",
+      "palette": "P12"
+    },
+    {
+      "id": "03",
+      "slug": "music-key",
+      "role": "concept",
+      "eyebrow": "03 / 核心概念",
+      "headline": "调性 Key",
+      "support": "音乐衔接是否自然，调性是关键变量",
+      "keywords": ["Key", "调性"],
+      "english_anchor": "MUSIC KEY",
+      "metadata": "40% DIFFUSE",
+      "layout": "L08",
+      "palette": "P12"
+    },
+    {
+      "id": "04",
+      "slug": "same-key",
+      "role": "method",
+      "eyebrow": "04 / 剪辑技巧",
+      "headline": "同调衔接",
+      "support": "拼接多首 BGM，优先选择相同调性的音乐",
+      "keywords": ["BGM", "同调"],
+      "english_anchor": "SAME KEY",
+      "metadata": "KEY / B",
+      "layout": "L01",
+      "palette": "P12"
+    },
+    {
+      "id": "05",
+      "slug": "contrast",
+      "role": "contrast",
+      "eyebrow": "05 / 对比",
+      "headline": "割裂与自然",
+      "support": "异调切换容易突兀，同调切换更连贯",
+      "keywords": ["异调", "同调"],
+      "english_anchor": "A / B",
+      "metadata": "SHIFT / FLOW",
+      "layout": "L04",
+      "palette": "P12"
+    },
+    {
+      "id": "06",
+      "slug": "filter-fast",
+      "role": "process",
+      "eyebrow": "06 / 选曲流程",
+      "headline": "一秒筛选",
+      "support": "识别参考曲调性，再筛选曲库中的同调音乐",
+      "keywords": ["识别", "筛选", "衔接"],
+      "english_anchor": "FILTER",
+      "metadata": "01 · 02 · 03",
+      "layout": "L09",
+      "palette": "P12"
+    },
+    {
+      "id": "07",
+      "slug": "efficient-selection",
+      "role": "conclusion",
+      "eyebrow": "07 / 最终收益",
+      "headline": "选曲更高效",
+      "support": "统一音乐、音效与氛围的调性，提升整体质感",
+      "keywords": ["效率", "质感"],
+      "english_anchor": "BETTER FLOW",
+      "metadata": "END / 07",
+      "layout": "L10",
+      "palette": "P12"
+    }
+  ]
+}
