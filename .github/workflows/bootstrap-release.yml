@@ -10,7 +10,6 @@ permissions:
 
 jobs:
   unpack:
-    if: ${{ hashFiles('frosted-text-cards-github-release.zip') != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
