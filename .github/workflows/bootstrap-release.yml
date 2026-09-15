@@ -16,7 +16,7 @@ jobs:
       - name: Unpack release
         run: |
           unzip -q frosted-text-cards-github-release.zip -d .release
-          rsync -a .release/frosted-text-cards-github/ ./
+          rsync -a --exclude='.github/' .release/frosted-text-cards-github/ ./
           rm -rf .release frosted-text-cards-github-release.zip
       - name: Commit extracted files
         run: |
